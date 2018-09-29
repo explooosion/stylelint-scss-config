@@ -1,5 +1,5 @@
 # stylelint-scss-config
-This is the common settings about [stylelint](https://github.com/stylelint/stylelint) for scss.
+This is the general settings about [stylelint](https://github.com/stylelint/stylelint) for scss.
 
 ---
 
@@ -33,13 +33,13 @@ Checkout the package.json and install the devDependencies.
 #### npm 
 
 ```bash
-npm install -D stylelint stylelint-config-prettier stylelint-config-sass-guidelines stylelint-config-standard stylelint-order stylelint-scss 
+npm install -D stylelint stylelint-config-prettier stylelint-config-sass-guidelines stylelint-config-standard stylelint-order stylelint-scss pre-commit
 ```
 
 #### yarn
 
 ```bash
-yarn add -D stylelint stylelint-config-prettier stylelint-config-sass-guidelines stylelint-config-standard stylelint-order stylelint-scss 
+yarn add -D stylelint stylelint-config-prettier stylelint-config-sass-guidelines stylelint-config-standard stylelint-order stylelint-scss pre-commit
 ```
 
 ### 2. Add Scripts and Precommit

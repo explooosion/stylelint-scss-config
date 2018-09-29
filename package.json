@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/explooosion/stylelint-scss-config#readme",
   "devDependencies": {
+    "pre-commit": "^1.2.2",
     "stylelint": "^9.6.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-sass-guidelines": "^5.2.0",

@@ -1,0 +1,39 @@
+{
+  "name": "stylelint-scss-config",
+  "version": "1.0.0",
+  "description": "This is a custom config for stylelint with scss.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint app/scss/**/**/**/*.scss --syntax scss",
+    "lint:fix": "stylelint app/scss/**/**/**/*.scss --syntax scss --fix"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/explooosion/stylelint-scss-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "lint",
+    "scss",
+    "config",
+    "sample",
+    "example"
+  ],
+  "author": "Robby <ta7382@gmail.com> (https://github.com/explooosion)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/explooosion/stylelint-scss-config/issues"
+  },
+  "homepage": "https://github.com/explooosion/stylelint-scss-config#readme",
+  "devDependencies": {
+    "stylelint": "^9.6.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-sass-guidelines": "^5.2.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0",
+    "stylelint-scss": "3.3.1"
+  }
+}

@@ -12,7 +12,7 @@ git clone https://github.com/explooosion/stylelint-scss-config.git
 ```
 
 ```bash
-yarn # or npm install
+cd stylelint-scss-config && yarn # or npm install
 ```
 
 ```bash
